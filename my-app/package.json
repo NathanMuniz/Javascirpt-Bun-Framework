@@ -15,6 +15,8 @@
   },
   "scripts": {
     "welcome": "bun index.html",
+    "build": "bun run build.ts",
+    "release": "bun run build && bun run release.ts",
     "start": "bun run server.ts",
     "chat": "bun run server.ts"
   }
